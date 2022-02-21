@@ -72,7 +72,7 @@ function Navbar ({ setNotes }) {
 
 					<footer className="modal-card-foot">
 						<button className="button is-success" onClick={async () => {
-							if (noteTitle !== '' && contentTitle !== '') {
+							if (noteTitle !== '' && noteContent !== '') {
 								toggleModal()
 
 								let { data } = await newNote({ variables: { title: noteTitle, content: noteContent } });
