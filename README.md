@@ -7,7 +7,7 @@ A notes app made with MongoDB, Node.js, GraphQL, and Next.js
 
 1. Clone this git repo:
 ```sh
-git clone https://github.com/Ismaelleon/notes-app`
+git clone https://github.com/Ismaelleon/notes-app
 ```
 
 2. Install dependences:
