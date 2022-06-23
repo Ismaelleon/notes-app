@@ -12,14 +12,20 @@ git clone https://github.com/Ismaelleon/notes-app
 
 2. Install dependences:
 ```sh
-cd ./notes-app/client/
+cd ./notes-app/server/
 npm install
-cd ../server/
-npm install
+cd ./src/client/
+cd npm install
 ```
 
-3. Start development servers (on both client and server):
+3. Build the client application:
 ```sh
+npm run build
+```
+
+4. Start development server:
+```sh
+cd ../../
 npm run dev
 ```
 
